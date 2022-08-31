@@ -15,12 +15,65 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
-    color-scheme: dark;
+    color-scheme: white;
   }
+
   body {
     color: white;
     background: black;
   }
+}
+
+.logo,
+.icon {
+  cursor: pointer;
+}
+
+.banner {
+  height: 80vh;
+  background-image: url("https://img.freepik.com/free-vector/classroom-mathematics-learning_107791-1354.jpg?w=1060&t=st=1661697676~exp=1661698276~hmac=7d770a9caa93c4ac85403e5bf618f42d6f1bce782e7cf6dd7ee19ccb2b051bbc");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner2 {
+  height: 80vh;
+  background-image: url("https://img.freepik.com/premium-vector/female-teacher-starting-math-class-front-first-grade-elementary-school-classes_142963-668.jpg?w=996");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner3 {
+  height: 80vh;
+  background-image: url("https://img.freepik.com/free-vector/teacher-teaching-students-classroom-scene_1308-67531.jpg?w=826&t=st=1661698068~exp=1661698668~hmac=bae4781a133357ea7c45e9b341c723805c86d68ca4981d77eb6f24bc67dc62f9");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-container {
+  height: 80vh;
+  background-image: url('https://img.freepik.com/free-vector/empty-classroom-interior-school-college-class_107791-631.jpg?w=1060&t=st=1661697544~exp=1661698144~hmac=b0c7b2874e60fef9260bf3f9b3ff5065f158028f5619aa2c864ea8726e42ba14');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 65px;
+}
+
+.contact-container {
+  height: 80vh;
+  background-image: url('https: //st2.depositphotos.com/3542901/8151/i/950/depositphotos_81515068-stock-photo-blur-school-activity.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
