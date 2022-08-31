@@ -1,4 +1,4 @@
-import React from 'react';;
+import React from 'react';
 
 const Address = () => {
     const map = "https://images.thedailystar.net/sites/default/files/styles/very_big_201/public/feature/images/mohammadpur_map_0.jpg";
