@@ -23,6 +23,16 @@ const Header = () => {
                                     <button className="btn btn-light fw-bold rounded-pill">About</button>
                                 </Link>
                             </li>
+                            <li className="nav-item me-2">
+                                <Link className="nav-link text-dark" href="/gallary">
+                                    <button className="btn btn-light fw-bold rounded-pill">Gallary</button>
+                                </Link>
+                            </li>
+                            <li className="nav-item me-2">
+                                <Link className="nav-link text-dark" href="/teachers">
+                                    <button className="btn btn-light fw-bold rounded-pill">Teachers</button>
+                                </Link>
+                            </li>
                             <li className="nav-item">
                                 <Link className="nav-link text-dark" href="/contact">
                                     <button className="btn btn-success fw-bold rounded-pill">Contact</button>

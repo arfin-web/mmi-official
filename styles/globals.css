@@ -72,8 +72,12 @@ a {
 
 .contact-container {
   height: 80vh;
-  background-image: url('https: //st2.depositphotos.com/3542901/8151/i/950/depositphotos_81515068-stock-photo-blur-school-activity.jpg');
+  background-image: url('https://img.freepik.com/free-vector/school-classroom-interior-university-educational-concept-blackboard-table_1441-1694.jpg?w=1060&t=st=1662340929~exp=1662341529~hmac=762b8ee31b95e3576e56562d66039e4d5ec558d41b89d1f93d01124fb3cf0a16');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.teacher-card {
+  height: 450px !important;
 }
