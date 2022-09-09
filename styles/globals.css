@@ -31,6 +31,14 @@ a {
   cursor: pointer;
 }
 
+.mainbanner {
+  height: 90vh;
+  background-image: url("https://cdn.sanity.io/images/dtf5xk7x/production/6b28f42e43d0ac212202ef2c411ee8a0a557f81f-720x540.jpg?w=1920&q=75&fit=clip&auto=format");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner {
   height: 80vh;
   background-image: url("https://img.freepik.com/free-vector/classroom-mathematics-learning_107791-1354.jpg?w=1060&t=st=1661697676~exp=1661698276~hmac=7d770a9caa93c4ac85403e5bf618f42d6f1bce782e7cf6dd7ee19ccb2b051bbc");

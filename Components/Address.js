@@ -16,7 +16,7 @@ const Address = () => {
                                             </p>
                                         </li>
                                         <li className="list-group-item border-0">
-                                            <p className='fs-4'><i className="fas fa-phone-alt text-success fs-3"></i> +880186111162</p>
+                                            <p className='fs-4'><i className="fas fa-phone-alt text-success fs-3"></i> +8801816111162</p>
                                         </li>
                                         <li className="list-group-item border-0">
                                             <p className='fs-4'><i className="fas fa-envelope text-success fs-3"></i> mmiofficial15@gmail.com</p>
