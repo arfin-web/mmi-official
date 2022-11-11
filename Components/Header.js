@@ -13,27 +13,27 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item me-2">
+                            <li className="nav-item m-1">
                                 <Link className="nav-link active text-dark" aria-current="page" href="/">
                                     <button className="btn btn-light fw-bold rounded-pill">Home</button>
                                 </Link>
                             </li>
-                            <li className="nav-item me-2">
+                            <li className="nav-item m-1">
                                 <Link className="nav-link text-dark" href="/about">
                                     <button className="btn btn-light fw-bold rounded-pill">About</button>
                                 </Link>
                             </li>
-                            <li className="nav-item me-2">
+                            <li className="nav-item m-1">
                                 <Link className="nav-link text-dark" href="/gallary">
                                     <button className="btn btn-light fw-bold rounded-pill">Gallary</button>
                                 </Link>
                             </li>
-                            <li className="nav-item me-2">
+                            <li className="nav-item m-1">
                                 <Link className="nav-link text-dark" href="/teachers">
                                     <button className="btn btn-light fw-bold rounded-pill">Teachers</button>
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item m-1">
                                 <Link className="nav-link text-dark" href="/contact">
                                     <button className="btn btn-success fw-bold rounded-pill">Contact</button>
                                 </Link>
