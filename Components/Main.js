@@ -4,15 +4,26 @@ import Offerbanner from './Offerbanner';
 import Carousel from './Carousel';
 import Description from './Description';
 import Statistics from './Statistics';
+import Zoom from 'react-reveal/Zoom';
 
 const Main = () => {
     return (
         <>
-            <Mainbanner />
-            <Carousel />
-            <Statistics />
-            <Offerbanner />
-            <Description />
+            <Zoom>
+                <Mainbanner />
+            </Zoom>
+            <Zoom>
+                <Carousel />
+            </Zoom>
+            <Zoom>
+                <Statistics />
+            </Zoom>
+            <Zoom>
+                <Offerbanner />
+            </Zoom>
+            <Zoom>
+                <Description />
+            </Zoom>
         </>
     );
 };
