@@ -8,21 +8,21 @@ const Statistics = () => {
                     <div className="col">
                         <div className="card h-100 bg-light border-0 rounded-3">
                             <div className="card-body">
-                                <h5 className="card-title text-center"><i className="fas fa-user-graduate text-success fs-4"></i> 100+ Students</h5>
+                                <h5 className="card-title text-center"><i className="fas fa-user-graduate text-success fs-4"></i> ১০০+ শিক্ষার্থী</h5>
                             </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-100 bg-light border-0 rounded-3">
                             <div className="card-body">
-                                <h5 className="card-title text-center"><i className="fas fa-chalkboard-teacher text-success fs-4"></i> 10+ Instructors</h5>
+                                <h5 className="card-title text-center"><i className="fas fa-chalkboard-teacher text-success fs-4"></i> ১০+ প্রশিক্ষক</h5>
                             </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-100 bg-light border-0 rounded-3">
                             <div className="card-body">
-                                <h5 className="card-title text-center"><i className="fas fa-medal text-success fs-4"></i> 4+ Award</h5>
+                                <h5 className="card-title text-center"><i className="fas fa-medal text-success fs-4"></i> ৪+ পুরস্কার</h5>
                             </div>
                         </div>
                     </div>

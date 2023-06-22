@@ -11,10 +11,10 @@ const Description = () => {
                         <img src={descriptioImg} className="img-fluid shadow-lg" alt="desription" />
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 p-4">
-                        <p className="fs-1 text-success fw-bold mb-5">About Our Institution</p>
+                        <p className="fs-1 text-success fw-bold mb-5">আমাদের প্রতিষ্ঠান সম্পর্কে</p>
                         <p className="text-muted">
-                            <span className='text-success fw-bold'>Multilateral model Institute</span> is a community of learners including students, parents and staff who are dedicated to creating an academically rigorous, culturally caring and inclusive learning environment.We are Reaching Excellence in Academics and Changing History!Together, we are champions of knowledge, our communities, the environment and of our futures.<span className='text-success fw-bold'>MMI</span>  Achievers are goal-oriented, critical thinkers and community leaders who are dedicated to achieving the highest level of integrity and academic success.<br />
-                            To this end, we seek to develop well-rounded students who exemplify health, wellness and character development using our core schoolwide expectations and values (Be Safe, Be Respectful, Be Responsible and Be Mindful).
+                            <span className='text-success fw-bold'>মাল্টিলেটারেল মডেল ইন্সটিটিউট </span> হল শিক্ষার্থী, পিতামাতা এবং কর্মী সহ শিক্ষার্থীদের একটি সম্প্রদায় যারা একাডেমিকভাবে কঠোর, সাংস্কৃতিকভাবে যত্নশীল এবং অন্তর্ভুক্তিমূলক শিক্ষার পরিবেশ তৈরিতে নিবেদিত। আমরা একাডেমিক এবং পরিবর্তনশীল ইতিহাসে শ্রেষ্ঠত্ব অর্জন করছি! একসাথে, আমরা জ্ঞান, আমাদের সম্প্রদায়, পরিবেশ এবং আমাদের ভবিষ্যতের চ্যাম্পিয়ন। এমএমআই অর্জনকারীরা লক্ষ্য-ভিত্তিক, সমালোচনামূলক চিন্তাবিদ এবং সম্প্রদায়ের নেতা যারা সর্বোচ্চ স্তরের সততা এবং একাডেমিক সাফল্য অর্জনের জন্য নিবেদিত।
+                            এই লক্ষ্যে, আমরা আমাদের মূল স্কুলব্যাপী প্রত্যাশা এবং মূল্যবোধ (নিরাপদ হোন, শ্রদ্ধাশীল হোন, দায়িত্বশীল হোন এবং সচেতন হোন) ব্যবহার করে স্বাস্থ্য, সুস্থতা এবং চরিত্র বিকাশের উদাহরণ স্বরূপ সু-বৃত্তাকার শিক্ষার্থীদের বিকাশ করতে চাই।
                         </p>
                         <Link href="/about">
                             <button type="button" className="btn btn-success rounded-pill text-light fw-bold mt-4">Know More</button>

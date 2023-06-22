@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-lg-7 col-md-6 col-12">
                             <div className="p-5 bg-light mt-5 border-0 rounded-3 shadow-lg animate__animated animate__backInLeft">
-                                <p className="fs-1 text-dark">&quot;Learning is a <span className='text-success'>treasure</span> that will follow it&apos;s owner <span className='text-success'>everywhere</span>&quot;</p>
+                                <p className="fs-1 text-dark">&quot;শেখা একটি <span className='text-success'>সম্পদ</span> যা সর্বত্র এর&apos;মালিককে অনুসরণ করবে&quot;</p>
                                 <p className="text-muted"> -- Chinese Proverb</p>
                                 <Link href="/contact">
                                     <button type="button" className="btn btn-success text-light fw-bold">Contact With Us</button>

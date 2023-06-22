@@ -21,17 +21,57 @@ const Teachers = ({ posts }) => {
             setMappedPosts([]);
         }
     }, [posts]);
+
+    const teachers = [
+        {
+            name: 'ডঃ মফিজুর রহমান',
+            designation: 'চেয়ারম্যান',
+            image: 'chairman.png',
+        },
+        {
+            name: 'হোসনে আক্তার',
+            designation: 'প্রধান শিক্ষিকা',
+            image: 'principal.png',
+        },
+        {
+            name: 'মোস্তাফিজুর রহমান',
+            designation: 'উপদেষ্টা',
+            image: 'adviser.png',
+        },
+    ];
     return (
-        <div className="container">
-            <h1 className="my-5 fw-bold text-success text-center">Our Respectable Teachers</h1>
-            <div className="row g-5">
-                {mappedPosts &&
-                    mappedPosts.length &&
-                    mappedPosts.map((post, index) => (
-                        <Teacher data={post} key={index} />
+        <>
+            <div className="container">
+                <h1 className="my-5 text-center fw-bold text-success">Administrators</h1>
+                <div className="row g-4">
+                    {teachers.map((teacher, index) => (
+                        <div className="col-lg-4 col-md-6" key={index}>
+                            <div className="card border-0 rounded-3 shadow-lg">
+                                <img
+                                    src={teacher.image}
+                                    className="card-img-top"
+                                    alt={`Teacher ${teacher.name}`}
+                                />
+                                <div className="card-body">
+                                    <h5 className="card-title">{teacher.name}</h5>
+                                    <p className="card-text">{teacher.designation}</p>
+                                </div>
+                            </div>
+                        </div>
                     ))}
+                </div>
             </div>
-        </div>
+            <div className="container">
+                <h1 className="my-5 fw-bold text-success text-center">Our Respectable Teachers</h1>
+                <div className="row g-5">
+                    {mappedPosts &&
+                        mappedPosts.length &&
+                        mappedPosts.map((post, index) => (
+                            <Teacher data={post} key={index} />
+                        ))}
+                </div>
+            </div>
+        </>
     );
 };
 export const getServerSideProps = async (context) => {
