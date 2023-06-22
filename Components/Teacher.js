@@ -4,7 +4,6 @@ import { useNextSanityImage } from 'next-sanity-image';
 import { sanityClient } from "../sanityClient";
 const Teacher = (props) => {
     const post = props.data;
-    const slug = post.slug.current;
     const imageProps = useNextSanityImage(
         sanityClient,
         post.mainImage
@@ -21,9 +20,6 @@ const Teacher = (props) => {
                     <p className="card-text">
                         {post.excerpt}
                     </p>
-                    <a href={slug} className="btn btn-success rounded-pill fw-bold">
-                        More Details
-                    </a>
                 </div>
             </div>
         </div>
