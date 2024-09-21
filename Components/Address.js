@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Address = () => {
-    const map = "https://images.thedailystar.net/sites/default/files/styles/very_big_201/public/feature/images/mohammadpur_map_0.jpg";
     return (
         <>
             <div className='container my-5'>
@@ -26,7 +25,16 @@ const Address = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <img src={map} className="img-fluid rounded-start h-100" alt="map" />
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14606.07014452545!2d90.34947028543151!3d23.76457825856719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Road%20No%20-%201%2C%20House%20No%20-%2013%2C%20Block%20-%20A%2C%20Dhaka%20Uddan%2C%20Mohammadpur%2C%201207!5e0!3m2!1sen!2sbd!4v1699429788306!5m2!1sen!2sbd"
+                                width="350"
+                                height="280"
+                                style={{ border: 0 }}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                title="Google Map"
+                            ></iframe>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import imageUrlBuilder from "@sanity/image-url";
 // import { sanityClient } from "../sanityClient";
 import GallaryImage from '../Components/GallaryImage';
-const Gallary = ({ posts }) => {
+const Gallery = ({ posts }) => {
     const [mappedPosts, setMappedPosts] = useState([]);
     useEffect(() => {
         if (posts.length) {
@@ -53,4 +53,4 @@ export const getServerSideProps = async (context) => {
         };
     }
 };
-export default Gallary;
+export default Gallery;

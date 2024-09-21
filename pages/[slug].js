@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 import { useNextSanityImage } from "next-sanity-image";

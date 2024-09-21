@@ -3,6 +3,7 @@ import Mainbanner from './Mainbanner';
 import Offerbanner from './Offerbanner';
 import Carousel from './Carousel';
 import Description from './Description';
+import DescriptionTwo from './DescriptionTwo'
 import Statistics from './Statistics';
 import Zoom from 'react-reveal/Zoom';
 
@@ -23,6 +24,9 @@ const Main = () => {
             </Zoom>
             <Zoom>
                 <Description />
+            </Zoom>
+            <Zoom>
+                <DescriptionTwo />
             </Zoom>
         </>
     );
