@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Description = () => {
+const DescriptionTwo = () => {
     const descriptioImg = 'https://img.freepik.com/free-photo/books-with-brain-digital-art-style-education-day_23-2151164350.jpg?t=st=1726891496~exp=1726895096~hmac=3bdceb91d79e5c37ae6a4404b588e541957ad2c01e32153827d72caddb76c373&w=900';
     return (
         <>
@@ -24,4 +24,4 @@ const Description = () => {
     );
 };
 
-export default Description;
+export default DescriptionTwo;

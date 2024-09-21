@@ -11,11 +11,14 @@ const Address = () => {
                                 <div className="card border-0">
                                     <ul className="list-group list-group-flush">
                                         <li className="list-group-item border-0">
-                                            <p className='fs-4 text-dark'><i className="fas fa-map-marker-alt text-success fs-3"></i> Road No - 1, House No - 13, Block - A, Dhaka Uddan, Mohammadpur, 1207
+                                            <p className='fs-4 text-dark'><i className="fas fa-map-marker-alt text-success fs-3"></i> Road No - 3, House No - 12, Block - A, Dhaka Uddan, Mohammadpur, 1207
                                             </p>
                                         </li>
                                         <li className="list-group-item border-0">
                                             <p className='fs-4'><i className="fas fa-phone-alt text-success fs-3"></i> +8801816111162</p>
+                                        </li>
+                                        <li className="list-group-item border-0">
+                                            <p className='fs-4'><i className="fas fa-phone-alt text-success fs-3"></i> +8801712007165</p>
                                         </li>
                                         <li className="list-group-item border-0">
                                             <p className='fs-4'><i className="fas fa-envelope text-success fs-3"></i> mmiofficial15@gmail.com</p>

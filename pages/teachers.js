@@ -24,19 +24,22 @@ const Teachers = ({ posts }) => {
 
     const teachers = [
         {
-            name: 'ডঃ মফিজুর রহমান',
+            name: 'ডঃ মোঃ মফিজুর রহমান',
             designation: 'চেয়ারম্যান',
             image: 'chairman.png',
+            qualification: 'সিইও, মাতৃভুমি হেলথ কেয়ার সেন্টার, বিশিষ্ঠ হৃদরোগ চিকিৎসক'
         },
         {
             name: 'হোসনে আক্তার',
             designation: 'প্রধান শিক্ষিকা',
             image: 'principal.png',
+            qualification: 'বিএসসি (অনার্স), এমএসসি (প্রথম শ্রেণী)'
         },
         {
-            name: 'মোস্তাফিজুর রহমান',
+            name: 'মোঃ মোস্তাফিজুর রহমান',
             designation: 'উপদেষ্টা',
             image: 'adviser.png',
+            qualification: 'এম.এম, এমএ'
         },
     ];
     return (
@@ -55,6 +58,7 @@ const Teachers = ({ posts }) => {
                                 <div className="card-body">
                                     <h5 className="card-title">{teacher.name}</h5>
                                     <p className="card-text">{teacher.designation}</p>
+                                    <p className="card-text">{teacher.qualification}</p>
                                 </div>
                             </div>
                         </div>

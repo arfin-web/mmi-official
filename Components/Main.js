@@ -6,6 +6,8 @@ import Description from './Description';
 import DescriptionTwo from './DescriptionTwo'
 import Statistics from './Statistics';
 import Zoom from 'react-reveal/Zoom';
+import OurSpeech from './OurSpeech';
+import OthersFacilities from './OthersFacilities';
 
 const Main = () => {
     return (
@@ -24,6 +26,12 @@ const Main = () => {
             </Zoom>
             <Zoom>
                 <Description />
+            </Zoom>
+            <Zoom>
+                <OthersFacilities />
+            </Zoom>
+            <Zoom>
+                <OurSpeech />
             </Zoom>
             <Zoom>
                 <DescriptionTwo />
