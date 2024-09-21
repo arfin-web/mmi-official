@@ -25,7 +25,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item m-1">
                                 <Link className="nav-link text-dark" href="/gallery">
-                                    <button className="btn btn-light fw-bold rounded-pill">Gallery</button>
+                                    <button className="btn btn-light fw-bold rounded-pill">Gallary</button>
                                 </Link>
                             </li>
                             <li className="nav-item m-1">

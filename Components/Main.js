@@ -6,14 +6,17 @@ import Description from './Description';
 import DescriptionTwo from './DescriptionTwo'
 import Statistics from './Statistics';
 import Zoom from 'react-reveal/Zoom';
-import OurSpeech from './OurSpeech';
 import OthersFacilities from './OthersFacilities';
+import Characteristics from './Characteristics';
 
 const Main = () => {
     return (
         <>
             <Zoom>
                 <Mainbanner />
+            </Zoom>
+            <Zoom>
+                <Characteristics />
             </Zoom>
             <Zoom>
                 <Carousel />
@@ -29,9 +32,6 @@ const Main = () => {
             </Zoom>
             <Zoom>
                 <OthersFacilities />
-            </Zoom>
-            <Zoom>
-                <OurSpeech />
             </Zoom>
             <Zoom>
                 <DescriptionTwo />

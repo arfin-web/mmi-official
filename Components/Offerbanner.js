@@ -19,7 +19,7 @@ const Offerbanner = () => {
                             <i className="fas fa-chalkboard-teacher fs-1 ms-3 mb-3 mt-2 text-light"></i>
                             <div className="card-body">
                                 <h4 className="card-title text-light">বিশেষজ্ঞ প্রশিক্ষক</h4>
-                                <p className="card-text text-white-50">আপনার সন্তানের সর্বোত্তম শিক্ষা প্রদানের জন্য আমাদের অভিজ্ঞ শিক্ষক রয়েছে।</p>
+                                <p className="card-text text-white-50">আপনার সন্তানের সর্বোত্তম শিক্ষা প্রদানের জন্য আমাদের রয়েছে অভিজ্ঞ শিক্ষকমণ্ডলী।</p>
                             </div>
                         </div>
                     </div>
