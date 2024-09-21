@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
             <div className="container-fluid about-container mb-5">
-                <p className="about-title text-light fw-bold">About Us</p>
+                <p className="about-title text-light fw-bold">আমাদের সম্পর্কে</p>
             </div>
             <div className="container mb-5">
                 <div className="row">
@@ -14,7 +14,7 @@ const About = () => {
                         <img src={mission} className="img-fluid shadow-lg mt-3" alt="about" />
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 p-4">
-                        <p className="fs-1 text-success fw-bold mb-3">Our Mission</p>
+                        <p className="fs-1 text-success fw-bold mb-3">আমাদের মিশন</p>
                         <p className="text-muted">
                             We foster our students’ love for learning, encourage them to try new and exciting things, and give them a solid foundation to build on.
                             Our vision is to develop well rounded, confident and responsible individuals who aspire to achieve their full potential. We will do this by providing a welcoming, happy, safe, and supportive learning environment in which everyone is equal and all achievements are celebrated.
@@ -27,7 +27,7 @@ const About = () => {
             <div className="container mb-5">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12 p-4">
-                        <p className="fs-1 text-success fw-bold mb-3">Our Vision</p>
+                        <p className="fs-1 text-success fw-bold mb-3">আমাদের ভিশন</p>
                         <p className="text-muted">
                             Our goal is to support and nurture the children’s and our own natural desire to be life-long learners. We are committed to the families we serve, providing support and encouragement.
                             Our Vision is a community where all children feel loved, respected and encouraged to develop to their fullest potential.

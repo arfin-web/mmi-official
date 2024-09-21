@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const Description = () => {
-    const descriptioImg = 'https://img.freepik.com/free-photo/international-day-education-cartoon-style_23-2151007380.jpg?t=st=1726890763~exp=1726894363~hmac=d3425b269aa773d154cdd20c04b6ff94f519b5078e0a05641b24a31f19787c34&w=360';
+    const descriptioImg = 'https://img.freepik.com/free-photo/books-with-brain-digital-art-style-education-day_23-2151164350.jpg?t=st=1726891496~exp=1726895096~hmac=3bdceb91d79e5c37ae6a4404b588e541957ad2c01e32153827d72caddb76c373&w=900';
     return (
         <>
             <div className="container mb-5">
