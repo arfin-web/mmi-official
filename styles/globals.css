@@ -63,21 +63,6 @@ a {
   background-size: cover;
 }
 
-.about-container {
-  height: 80vh;
-  background-image: url('https://img.freepik.com/free-vector/empty-classroom-interior-school-college-class_107791-631.jpg?w=1060&t=st=1661697544~exp=1661698144~hmac=b0c7b2874e60fef9260bf3f9b3ff5065f158028f5619aa2c864ea8726e42ba14');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-title {
-  font-size: 65px;
-}
-
 .contact-container {
   height: 80vh;
   background-image: url('https://img.freepik.com/free-vector/school-classroom-interior-university-educational-concept-blackboard-table_1441-1694.jpg?w=1060&t=st=1662340929~exp=1662341529~hmac=762b8ee31b95e3576e56562d66039e4d5ec558d41b89d1f93d01124fb3cf0a16');

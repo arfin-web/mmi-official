@@ -5,8 +5,8 @@ const Characteristics = () => {
     const descriptioImg = 'https://i.etsystatic.com/27977671/r/il/6a2ab5/3957982583/il_fullxfull.3957982583_211y.jpg';
     return (
         <>
-            <h1 className='fs-3 text-center text-success mt-4'>বিসমিল্লাহির রাহমানির রাহিম</h1>
-            <h2 className='fs-5 text-center mb-3'>স্কুল কোড - <span className='text-success'>৪২৪১৫৪</span></h2>
+            <h1 className='fs-3 fw-bold text-center text-success mt-4'>বিসমিল্লাহির রাহমানির রাহিম</h1>
+            <h2 className='fs-5 fw-bold text-center mb-3'>স্কুল কোড - <span className='text-success'>৪২৪১৫৪</span></h2>
             <OurSpeech />
             <h2 className='fs-4 text-center text-success my-4'>মাল্টিলেটারেল মডেল ইনস্টিটিউট একটি ব্যতিক্রমি শিক্ষা প্রতিষ্ঠান, এর রয়েছে :</h2>
 
