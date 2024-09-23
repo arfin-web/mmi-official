@@ -2,7 +2,9 @@ import React from 'react'
 import OurSpeech from './OurSpeech'
 
 const Characteristics = () => {
-    const descriptioImg = 'https://i.etsystatic.com/27977671/r/il/6a2ab5/3957982583/il_fullxfull.3957982583_211y.jpg';
+    const imgOne = 'https://cdn.pixabay.com/photo/2022/09/29/22/44/calligraphy-7488274_640.png';
+    const imgTwo = 'https://t4.ftcdn.net/jpg/04/98/59/21/360_F_498592161_RwqAotYO30O4C67fsl3e8F0i2d7uHuEL.jpg';
+    const imgThree = 'https://media.istockphoto.com/id/1456717721/vector/arabic-calligraphy-divine-name-of-prophet-muhammad-shallallahu-alaihi-wasallam-thuluth.jpg?s=612x612&w=0&k=20&c=8vYyCLKU11y6p4QzNkNPaRE2giQWBUvAOa5gbN7zfvI='
     return (
         <>
             <h1 className='fs-3 fw-bold text-center text-success mt-4'>বিসমিল্লাহির রাহমানির রাহিম</h1>
@@ -23,7 +25,7 @@ const Characteristics = () => {
                         </ul>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 p-4">
-                        <img src={descriptioImg} className="img-fluid shadow-lg" alt="desription" />
+                        <img src={imgOne} className="img-fluid shadow-lg" alt="desription" />
                     </div>
                 </div>
             </div>
@@ -31,7 +33,7 @@ const Characteristics = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12 p-4">
-                        <img src={descriptioImg} className="img-fluid shadow-lg" alt="desription" />
+                        <img src={imgTwo} className="img-fluid shadow-lg" alt="desription" />
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 p-4">
                         <p className="fs-2 text-success fw-bold mb-5">৪টি লক্ষ্য :</p>
@@ -57,7 +59,7 @@ const Characteristics = () => {
                         </ul>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 p-4">
-                        <img src={descriptioImg} className="img-fluid shadow-lg" alt="desription" />
+                        <img src={imgThree} className="img-fluid shadow-lg" alt="desription" />
                     </div>
                 </div>
             </div>

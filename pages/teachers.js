@@ -27,13 +27,13 @@ const Teachers = ({ posts }) => {
             name: 'ডঃ মোঃ মফিজুর রহমান',
             designation: 'চেয়ারম্যান',
             image: 'chairman.png',
-            qualification: 'সিইও, মাতৃভুমি হেলথ কেয়ার সেন্টার, বিশিষ্ঠ হৃদরোগ চিকিৎসক'
+            qualification: 'সি.ই.ও, মাতৃভুমি হার্ট কেয়ার সেন্টার, বিশিষ্ট হৃদরোগ চিকিৎসক'
         },
         {
             name: 'হোসনে আক্তার',
             designation: 'প্রধান শিক্ষিকা',
             image: 'principal.png',
-            qualification: 'বিএসসি (অনার্স), এমএসসি (প্রথম শ্রেণী)'
+            qualification: 'বি.এস.সি অনার্স প্রথম শ্রেণী), এম.এস.সি (প্রথম শ্রেণী)'
         },
         {
             name: 'মোঃ মোস্তাফিজুর রহমান',
@@ -66,7 +66,7 @@ const Teachers = ({ posts }) => {
                 </div>
             </div>
             <div className="container">
-                <h1 className="my-5 fw-bold text-success text-center">Our Respectable Teachers</h1>
+                <h1 className="my-5 fw-bold text-success text-center">Our Respected Teachers</h1>
                 <div className="row g-5">
                     {mappedPosts &&
                         mappedPosts.length &&
