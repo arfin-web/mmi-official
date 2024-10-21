@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { useNextSanityImage } from 'next-sanity-image';
 import { sanityClient } from "../sanityClient";
+import BlockContent from "@sanity/block-content-to-react";
+
 const Teacher = (props) => {
     const post = props.data;
     const imageProps = useNextSanityImage(
@@ -20,6 +22,7 @@ const Teacher = (props) => {
                     <p className="card-text">
                         {post.excerpt}
                     </p>
+                    <BlockContent blocks={post.body} />
                 </div>
             </div>
         </div>
