@@ -33,13 +33,13 @@ const Teachers = ({ posts }) => {
             name: 'হোসনে আক্তার',
             designation: 'প্রধান শিক্ষিকা',
             image: 'principal.png',
-            qualification: 'বি.এস.সি অনার্স প্রথম শ্রেণী), এম.এস.সি (প্রথম শ্রেণী)'
+            qualification: 'বি.এসসি অনার্স প্রথম শ্রেণী), এম.এসসি (প্রথম শ্রেণী)'
         },
         {
             name: 'মোঃ মোস্তাফিজুর রহমান',
             designation: 'উপদেষ্টা',
             image: 'adviser.png',
-            qualification: 'এম.এম, এমএ'
+            qualification: 'এম.এম, এম.এ'
         },
     ];
     return (

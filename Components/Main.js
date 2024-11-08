@@ -1,8 +1,6 @@
 import React from 'react';
 import Mainbanner from './Mainbanner';
-import Offerbanner from './Offerbanner';
 import Banner from './Banner'
-import Description from './Description';
 import DescriptionTwo from './DescriptionTwo'
 import Statistics from './Statistics';
 import Zoom from 'react-reveal/Zoom';
@@ -23,12 +21,6 @@ const Main = () => {
             </Zoom>
             <Zoom>
                 <Statistics />
-            </Zoom>
-            <Zoom>
-                <Offerbanner />
-            </Zoom>
-            <Zoom>
-                <Description />
             </Zoom>
             <Zoom>
                 <OthersFacilities />
