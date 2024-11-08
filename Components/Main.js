@@ -1,7 +1,7 @@
 import React from 'react';
 import Mainbanner from './Mainbanner';
 import Offerbanner from './Offerbanner';
-import Carousel from './Carousel';
+import Banner from './Banner'
 import Description from './Description';
 import DescriptionTwo from './DescriptionTwo'
 import Statistics from './Statistics';
@@ -19,7 +19,7 @@ const Main = () => {
                 <Characteristics />
             </Zoom>
             <Zoom>
-                <Carousel />
+                <Banner />
             </Zoom>
             <Zoom>
                 <Statistics />
