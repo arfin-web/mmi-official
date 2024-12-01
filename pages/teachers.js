@@ -30,16 +30,16 @@ const Teachers = ({ posts }) => {
             qualification: 'সি.ই.ও, মাতৃভুমি হার্ট কেয়ার সেন্টার, বিশিষ্ট হৃদরোগ চিকিৎসক'
         },
         {
-            name: 'হোসনে আক্তার',
-            designation: 'প্রধান শিক্ষিকা',
-            image: 'principal.png',
-            qualification: 'বি.এসসি অনার্স প্রথম শ্রেণী), এম.এসসি (প্রথম শ্রেণী)'
-        },
-        {
             name: 'মোঃ মোস্তাফিজুর রহমান',
             designation: 'উপদেষ্টা',
             image: 'adviser.png',
             qualification: 'এম.এম, এম.এ'
+        },
+        {
+            name: 'হোসনে আক্তার',
+            designation: 'প্রধান শিক্ষিকা',
+            image: 'principal.png',
+            qualification: 'বি.এসসি অনার্স প্রথম শ্রেণী), এম.এসসি (প্রথম শ্রেণী)'
         },
     ];
     return (
