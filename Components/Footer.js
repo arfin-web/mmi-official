@@ -1,12 +1,24 @@
-import React from 'react';
 import Address from './Address';
 
 const Footer = () => {
     return (
         <>
             <Address></Address>
-            <div className="container-fluid bg-dark py-2">
-                <p className="text-muted text-center mt-5 mb-0 fs-5">&#169; Created By <a href='https://www.nextwebify.com' target='_blank' className='text-light fw-bold'>NextWebify</a> || All Rights Resurved</p>
+            <div className="mt-12 border-t border-emerald-100 pt-8 text-center">
+                <p className="text-sm text-muted-foreground">
+                    © {new Date().getFullYear()} Multilateral Model Institute. All rights reserved.
+                </p>
+                <p className="text-sm text-muted-foreground mt-1">
+                    Crafted with ❤️ by{" "}
+                    <a
+                        href="https://www.growbizlab.cloud"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-emerald-600 hover:text-emerald-700 transition-colors"
+                    >
+                        Growbiz Lab
+                    </a>
+                </p>
             </div>
         </>
     );
