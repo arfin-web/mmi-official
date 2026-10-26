@@ -11,7 +11,7 @@ const Address = () => {
                                 <div className="card border-0">
                                     <ul className="list-group list-group-flush">
                                         <li className="list-group-item border-0">
-                                            <p className='fs-4 text-dark'><i className="fas fa-map-marker-alt text-success fs-3"></i> Road No - 3, House No - 12, Block - A, Dhaka Uddan, Mohammadpur, 1207
+                                            <p className='fs-4 text-dark'><i className="fas fa-map-marker-alt text-success fs-3"></i> Road No - 1, House No - 13, Block - A, Dhaka Uddan, Mohammadpur, 1207
                                             </p>
                                         </li>
                                         <li className="list-group-item border-0">
